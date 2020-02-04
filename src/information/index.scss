@@ -7,6 +7,9 @@
     bottom: 0;
     left: 0;
     right: 0;
+    @media (max-width: 900px) {
+        position: relative;
+    }
     span {
         font-size: 14px;
         font-weight: bold;

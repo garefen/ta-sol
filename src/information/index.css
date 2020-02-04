@@ -9,6 +9,12 @@
   right: 0;
 }
 
+@media (max-width: 900px) {
+  #information {
+    position: relative;
+  }
+}
+
 #information span {
   font-size: 14px;
   font-weight: bold;

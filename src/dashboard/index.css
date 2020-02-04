@@ -10,4 +10,15 @@
           align-items: center;
   margin: 100px 0;
 }
+
+@media (max-width: 900px) {
+  #dashboard {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    gap: 70px 0;
+    margin: 60px 15% 100px;
+  }
+}
 /*# sourceMappingURL=index.css.map */
